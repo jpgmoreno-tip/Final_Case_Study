@@ -1,0 +1,40 @@
+devices:
+  China:
+    connections:
+      cli:
+        ip: 10.0.0.6
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco123!
+        username: cisco
+      enable:
+        password: '%ASK{}'
+    os: ios
+    type: ios
+  Japan:
+    connections:
+      cli:
+        ip: 10.0.0.2
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco123!
+        username: cisco
+      enable:
+        password: '%ASK{}'
+    os: ios
+    type: ios
+  Korea:
+    connections:
+      cli:
+        ip: 192.168.50.1
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco123!
+        username: cisco
+      enable:
+        password: '%ASK{}'
+    os: ios
+    type: ios
